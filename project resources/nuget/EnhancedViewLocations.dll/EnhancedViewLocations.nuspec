@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EnhancedViewLocations</id>
+    <version>1.0</version>
+    <authors>Michael Kennedy</authors>
+    <owners>Michael Kennedy</owners>
+    <licenseUrl>http://mvcviews.codeplex.com/license</licenseUrl>
+    <projectUrl>http://mvcviews.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+      Enhanced View Locations for MVC allows ASP.NET MVC developers more control over organizing their view folders.
+    </description>
+    <copyright>Copyright 2011</copyright>
+    <tags>.NET .NET 4.0 ASP.NET ASPNETMVC MVC MVC3 ViewEngine</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>

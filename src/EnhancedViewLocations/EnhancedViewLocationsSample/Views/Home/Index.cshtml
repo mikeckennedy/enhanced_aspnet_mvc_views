@@ -1,0 +1,51 @@
+﻿@{
+	ViewBag.Title = "Enhanced View Locations";
+}
+
+<h2>Enhanced View Locations for ASP.NET MVC Razor</h2>
+<p>
+   Enhanced View Locations for ASP.NET MVC Razor allows you to further organize your views within
+   your Views folder (or even move the Views folder altogether - but this is not recommended).
+</p>
+<p>
+   Simply add a reference to <em>EnhancedViewLocations.dll</em> and then register the
+   desired new locations in your global.asax.cs file. Here's an example:
+</p>
+<blockquote>
+<pre>
+// global.asax.cs
+public class MvcApplication : System.Web.HttpApplication
+{
+   protected void Application_Start()
+   {
+	  AreaRegistration.RegisterAllAreas();
+
+	  RegisterGlobalFilters( GlobalFilters.Filters );
+	  RegisterRoutes( RouteTable.Routes );
+
+	  // Register the extra locations for views.
+	  RegisterCustomViewLocations();
+   }
+
+   private static void RegisterCustomViewLocations()
+   {
+	  // We can enable the standard Razor view CS (or VB) locations so we don't always
+	  // search our extra / custom areas first when searching for a view.
+	  EnhancedViewLocator.EnableStandardRazorCSLocations();
+
+	  // Add two extra locations to store / arrange our views.
+
+	  // 1. in the templates folder under the standard shared view folder.
+	  EnhancedViewLocator.AddFolder( "views/shared/templates" );
+
+	  // 2. in the navigation folder under the standard shared view folder.
+	  EnhancedViewLocator.AddFolder( "views/shared/navigation" );
+
+	  // Finally, have the locator install a custom view engine to manage the lookups.
+	  EnhancedViewLocator.Install( ControllerBuilder.Current );
+   }
+
+   //...
+}
+</pre>
+</blockquote>

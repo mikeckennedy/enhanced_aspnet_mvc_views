@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedViewLocationsSample", "EnhancedViewLocationsSample\EnhancedViewLocationsSample.csproj", "{0AE5BCC3-2267-468D-B642-51696D97F4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedViewLocations", "EnhancedViewLocations\EnhancedViewLocations.csproj", "{DC024ADF-70A6-4B44-AEF6-74B99262ED9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AE5BCC3-2267-468D-B642-51696D97F4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE5BCC3-2267-468D-B642-51696D97F4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE5BCC3-2267-468D-B642-51696D97F4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE5BCC3-2267-468D-B642-51696D97F4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC024ADF-70A6-4B44-AEF6-74B99262ED9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC024ADF-70A6-4B44-AEF6-74B99262ED9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC024ADF-70A6-4B44-AEF6-74B99262ED9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC024ADF-70A6-4B44-AEF6-74B99262ED9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
