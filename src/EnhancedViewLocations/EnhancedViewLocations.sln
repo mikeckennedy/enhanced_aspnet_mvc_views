@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 11
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedViewLocationsSample", "EnhancedViewLocationsSample\EnhancedViewLocationsSample.csproj", "{0AE5BCC3-2267-468D-B642-51696D97F4C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedViewLocations", "EnhancedViewLocations\EnhancedViewLocations.csproj", "{DC024ADF-70A6-4B44-AEF6-74B99262ED9C}"
